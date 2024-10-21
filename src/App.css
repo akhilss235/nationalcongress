@@ -31,6 +31,7 @@ body {
   background-image: url(../src/img/bg1.png);
   background-size: cover;
   background-position: center;
+  height: 1000px;
 }
 /* .Background2 {
   background-image: url(../src/img/bg1.png);
@@ -112,8 +113,4 @@ body {
     color: white!important;  
     font-weight: bold!important;  
   }
-
-
-
-
 

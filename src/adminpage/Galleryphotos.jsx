@@ -59,7 +59,7 @@ function Galleryphotos({ onClose }) {
             </div>
             <Modal.Body>
                 {!image && (
-                    <div className="row mt-3 d-flex justify-content-center">
+                    <div className="row  d-flex justify-content-center">
                         <label
                             htmlFor="file-upload"
                             className="form-label btn rounded mx-3"

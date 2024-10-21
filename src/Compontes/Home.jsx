@@ -28,7 +28,7 @@ function Home() {
       <Petition />
       <div className='row Background'>
         <div className=' col-md-4 d-flex align-items-center justify-content-center'>
-          <img src={congress1} alt="congress1" className="img-fluid" style={{ maxHeight: '800px' }} />
+          <img src={congress1} alt="congress1" className="img-fluid" style={{ maxHeight: '1000px' }} />
         </div>
         <div className='col-md-8 d-flex flex-column align-items-start justify-content-center  p-4'>
           <h2 className="text-start boss" style={{ color: '#203583' }}><b>Indian National Congress</b></h2>

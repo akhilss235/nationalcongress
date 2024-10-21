@@ -32,6 +32,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <div
+      
         id="google_translate_element"
         style={{
           marginLeft: '15px',
@@ -43,8 +44,19 @@ const Layout = ({ children }) => {
           position: 'fixed', 
           right: '10px', 
           zIndex: '9999',
+          // visibility:'hidden'
+          // display:'none'
         }}
       />
+            <div
+      
+      id="VIpgJd-ZVi9od-ORHb-KE6vqe"
+      style={{
+     
+        visibility:'hidden'
+        // display:'none'
+      }}
+    />
       <div>
         {children}
       </div>
