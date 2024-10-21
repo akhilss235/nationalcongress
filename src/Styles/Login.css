@@ -1,0 +1,50 @@
+.Login {
+    margin: 0;
+    background-color: #203583;
+    z-index: 1;
+    background-image: url(../img/Vectorss.png);
+    background-size: cover; /* Ensure the image covers the entire div */
+    background-position: center; /* Center the image */
+    min-height: 100vh; /* Ensure the div takes up the full height of the viewport */
+    position: relative; /* Ensures z-index works */
+}
+
+
+.containers {
+    background-color: #FFFFFF;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.input-section {
+    border-radius: 10px;
+    padding: 18px;
+    border: 1px solid rgb(226, 180, 180);
+}
+
+.input-section input {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Added border */
+}
+
+.LOGINBTN {
+    background-color: #203583;
+    color: #FFFFFF;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+}
+  
+.LOGINBTN:hover {
+    background-color: green;
+}

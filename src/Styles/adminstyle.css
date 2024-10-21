@@ -1,0 +1,77 @@
+.buttones7 {
+    margin-top: 10px; 
+    border-color: #ED1C00 !important;  
+    color: #ED1C00!important;  
+    font-weight: bold;  
+    transition: all 0.3s ease; 
+  }
+
+  .buttones7:hover {
+    background-color: #ED1C00!important; 
+    color: white!important;  
+    font-weight: bold!important;  
+
+  }
+  .buttones8 {
+    margin-top: 10px; 
+    background-color: #ED1C00 !important;  
+    color: white!important;  
+    font-weight: bold;  
+    transition: all 0.3s ease; 
+
+  }
+
+  .buttones8:hover {
+    background-color: #ED1C00 !important; 
+    color: white!important;  
+    font-weight: bold!important;  
+  }
+
+  .nav-linkss {
+    color: #203583 !important;
+    font-weight: 500; 
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 5px;
+    margin-left: 40px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
+}
+
+  .nav-linkss:hover {
+    color:#203583; /* Color on hover */
+  }
+  .nav-linkss.active {
+    color: #203583 !important; /* Color for active nav link */
+    border-bottom: 2px solid #203583; /* Bottom border for active link */
+    font-weight: bold;
+  }
+  .gellerviode {
+    position: relative;
+    z-index: 1; 
+  }
+  
+  .gellerviode .background-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 22%;
+    background-image: url('../img/gellerviode.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 1; /* Set opacity to a valid value between 0 and 1 */
+    z-index: 1; 
+  }
+  
+  .gellerviode2 {
+    position: relative; 
+    z-index: -1; 
+  }
+  th {
+    color:#505050 ;
+  }
+  

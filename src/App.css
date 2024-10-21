@@ -1,0 +1,119 @@
+/* Topbar.css */
+.navbar-custom {
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.navbar-custom .nav-link {
+  color: #203583; /* Custom color for nav links */
+  font-weight: 500; /* Optional: to make the font slightly bolder */
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 5px;
+  margin-left: 40px;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #0044cc; /* Color on hover */
+}
+
+.navbar-custom .nav-link.active {
+  color: #0044cc !important; /* Color for active nav link */
+  border-bottom: 2px solid #0044cc; /* Bottom border for active link */
+  font-weight: bold;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+.Background {
+  background-image: url(../src/img/bg1.png);
+  background-size: cover;
+  background-position: center;
+}
+/* .Background2 {
+  background-image: url(../src/img/bg1.png);
+  background-size: cover;
+  background-position: center;
+} */
+.boss {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.buttones {
+  color: white;
+  background-color: #203583 !important; 
+  border-color: #203583 !important; 
+}
+
+.buttones:hover {
+  background-color: #182965 !important; 
+  border-color: #182965 !important; 
+}
+
+
+  .buttones1 {
+    margin-top: 10px; 
+    border-color: #203583 !important;  
+    color: #203583!important;  
+    font-weight: bold;  
+    transition: all 0.3s ease; 
+  }
+
+  .buttones1:hover {
+    background-color: #203583!important; 
+    color: #fff!important;  
+    font-weight: bold!important;  
+  }
+
+  
+  .buttones2 {
+    margin-top: 10px; 
+    border-color: #F16E20 !important;  
+    color: #F16E20!important;  
+    font-weight: bold;  
+    transition: all 0.3s ease; 
+  }
+
+  .buttones2:hover {
+    background-color: #F16E20!important; 
+    color: white!important;  
+    font-weight: bold!important;  
+  }
+ 
+  .buttones4 {
+    margin-top: 10px; 
+    border-color: white !important;  
+    color: white!important;  
+    font-weight: bold;  
+    transition: all 0.3s ease; 
+
+  }
+
+  .buttones4:hover {
+    background-color: white!important; 
+    color: gray!important;  
+    font-weight: bold!important;  
+  }
+
+  .buttones6 {
+    margin-top: 10px; 
+    background-color: #203583 !important;  
+    color: white!important;  
+    font-weight: bold;  
+    transition: all 0.3s ease; 
+
+  }
+
+  .buttones6:hover {
+    background-color: #203583 !important; 
+    color: white!important;  
+    font-weight: bold!important;  
+  }
+
+
+
+
+

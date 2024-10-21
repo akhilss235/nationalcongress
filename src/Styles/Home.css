@@ -1,0 +1,78 @@
+.title{
+    color: #F16E20;
+    text-align: center;
+}
+
+  .card.EVENTS {
+    margin-bottom: 20px; /* Adjust as needed */
+    border: 1px solid #ddd; /* Optional: Add border for cards */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+  }
+
+  .card.EVENTS img {
+    border-top-left-radius: 8px; /* Optional: Rounded corners for image */
+    border-top-right-radius: 8px; /* Optional: Rounded corners for image */
+  }
+
+  .card.EVENTS .card-body {
+    padding: 15px; /* Adjust padding inside the card body */
+  }
+
+  .Background2 {
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .Background3 {
+    background-image: url(../img/bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40rem;  
+  }
+  
+  @media (max-width: 768px) {
+    .congress2 {
+      width: 90%;
+      max-height: none;
+      height: auto;
+    }
+  }
+  
+  
+@media (max-width: 768px) {
+    .Background3 {
+      height: auto;
+    }
+    .buttones3 {
+      width: 100%;
+      height: auto;
+    }
+    .text-start {
+      text-align: center !important;
+    }
+    .col-12 {
+      padding: 1rem !important;
+    }
+  }
+
+
+/* event page  */
+.Background4 {
+  background-image: url(../img/Background4.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50rem;
+  color: white;
+}
+.Background5 {
+  background-image: url(../img/bg2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50rem;
+  color: white;
+}
