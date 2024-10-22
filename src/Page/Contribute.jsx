@@ -2,11 +2,11 @@ import React from 'react';
 import logo from '../img/logo.png';
 import { Container } from 'react-bootstrap';
 import qrcode from '../img/qrcode.png';
-import Petition from "../Page/Petition";
+import Petition from "./Petition";
 import Topbar from "../Compontes/Topbar";
 import Footer from "../Compontes/Footer";
 
-function Congresscommittee() {
+function Contribute() {
     return (
         <>
             <Topbar />
@@ -14,7 +14,7 @@ function Congresscommittee() {
 
             <div className='Congresscommittee mt-5 mb-5' style={{ fontFamily: 'Roboto, sans-serif' }}>
                 <Container>
-                    <div className='card p-5' style={{ borderColor: '#203583', color: '#203583', borderRadius: '10px' }}>
+                    <div className='card p-5' style={{ borderColor: '#203583', color: '#203583', borderRadius: '10px',marginTop:'10%' }}>
                         <div className='d-flex justify-content-center mb-3'>
                             <img src={logo} alt="Logo" style={{ width: '40px' }} />
                         </div>
@@ -42,4 +42,4 @@ function Congresscommittee() {
     );
 }
 
-export default Congresscommittee;
+export default Contribute;

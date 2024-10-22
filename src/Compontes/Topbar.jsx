@@ -39,9 +39,9 @@ function Topbar() {
             <LinkContainer to="/Gallery">
               <Nav.Link className={getNavLinkClass('/Gallery')}>Gallery</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/Blogs">
+            {/* <LinkContainer to="/Blogs">
               <Nav.Link className={getNavLinkClass('/Blogs')}>Blogs</Nav.Link>
-            </LinkContainer>
+            </LinkContainer> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

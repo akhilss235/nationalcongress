@@ -141,6 +141,68 @@ const TimelineCarousel = () => {
                         </div>
                     </div>
                 </div>
+
+
+
+                <div className={styles.timelineCarouselItem} >
+                    <div className={styles.timelineCarouselItemInner}>
+                        <div className='row ' style={{ marginLeft: '5px' }}>
+                            <div className='d-flex justify-content-around'>
+                                <div className=' m-0 '>
+                                    <img src={blue} alt="" style={{ width: '3rem', marginLeft: '-13px' }} />
+                                    <img src={center1} alt="" style={{ height: '15rem', }} />
+                                </div>
+                                <div className='px-3 'style={{color:'#203583'}}>
+                                    <h5  >Lorem ipsum</h5>
+                                    <p style={{ fontSize: '0.9rem' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel arcu vitae nulla euismod convallis nec vitae diam. Maecenas non ultricies nibh. Quisque eu ante dolor. Fusce molestie orci leo, quis consectetur magna lobortis ut. Donec sagittis, tellus non feugiat finibus, nisi massa tempus ex, et ultrices nibh justo elementum lectus. Ut pulvinar ligula a pharetra placerat. Maecenas sed purus id dolor sodales mattis.</p>
+                                </div>
+                            </div>
+                            <img src={center} alt="" className='m-0 p-0' />
+                            <div className='d-flex justify-content-around mx-5 px-5' >
+                                <div >
+                                    <img src={center2} alt="" style={{ height: '15rem' }} />
+                                    <img src={red} alt="" className='px-1' style={{ width: '3rem', marginLeft: '-13px' }} />
+                                </div>
+                                <div className='mt-4 px-3' style={{color:'#F16E20'}}>
+                                    <h5  >Lorem ipsum</h5>
+                                    <p style={{ fontSize: '0.9rem' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel arcu vitae nulla euismod convallis nec vitae diam. Maecenas non ultricies nibh. Quisque eu ante dolor. Fusce molestie orci leo, quis consectetur magna lobortis ut. Donec sagittis, tellus non feugiat finibus, nisi massa tempus ex, et ultrices nibh justo elementum lectus. Ut pulvinar ligula a pharetra placerat. Maecenas sed purus id dolor sodales mattis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+
+
+                <div className={styles.timelineCarouselItem} >
+                    <div className={styles.timelineCarouselItemInner}>
+                        <div className='row ' style={{ marginLeft: '5px' }}>
+                            <div className='d-flex justify-content-around'>
+                                <div className=' m-0 '>
+                                    <img src={blue} alt="" style={{ width: '3rem', marginLeft: '-13px' }} />
+                                    <img src={center1} alt="" style={{ height: '15rem', }} />
+                                </div>
+                                <div className='px-3 'style={{color:'#203583'}}>
+                                    <h5  >Lorem ipsum</h5>
+                                    <p style={{ fontSize: '0.9rem' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel arcu vitae nulla euismod convallis nec vitae diam. Maecenas non ultricies nibh. Quisque eu ante dolor. Fusce molestie orci leo, quis consectetur magna lobortis ut. Donec sagittis, tellus non feugiat finibus, nisi massa tempus ex, et ultrices nibh justo elementum lectus. Ut pulvinar ligula a pharetra placerat. Maecenas sed purus id dolor sodales mattis.</p>
+                                </div>
+                            </div>
+                            <img src={center} alt="" className='m-0 p-0' />
+                            <div className='d-flex justify-content-around mx-5 px-5' >
+                                <div >
+                                    <img src={center2} alt="" style={{ height: '15rem' }} />
+                                    <img src={red} alt="" className='px-1' style={{ width: '3rem', marginLeft: '-13px' }} />
+                                </div>
+                                <div className='mt-4 px-3' style={{color:'#F16E20'}}>
+                                    <h5  >Lorem ipsum</h5>
+                                    <p style={{ fontSize: '0.9rem' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel arcu vitae nulla euismod convallis nec vitae diam. Maecenas non ultricies nibh. Quisque eu ante dolor. Fusce molestie orci leo, quis consectetur magna lobortis ut. Donec sagittis, tellus non feugiat finibus, nisi massa tempus ex, et ultrices nibh justo elementum lectus. Ut pulvinar ligula a pharetra placerat. Maecenas sed purus id dolor sodales mattis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </Slider>
 
         </section>

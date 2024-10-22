@@ -7,7 +7,7 @@ import News from "./Compontes/News";
 import Gallery from "./Compontes/Gallery";
 import Footer from "./Compontes/Footer";
 import Videos from "./Compontes/Videos";
-import Congresscommittee from "../src/Page/Congresscommittee";
+import Congresscommittee from "./Page/Contribute";
 import Joinvolunteer from "../src/Page/Joinvolunteer";
 import Petitionform from "../src/Page/Petitionform";
 import Header from "./adminsection/Header";
@@ -40,15 +40,15 @@ import Galleryphotos from "../src/adminpage/Galleryphotos";
 import Galleryvideo from "../src/adminpage/Galleryvideo";
 import Petitionview from "../src/adminpage/Petitionview";
 import Volunteerview from "../src/adminpage/Volunteerview";
-import Blogs from "./Compontes/Blogs";
- import Layout from "../src/Layout";
+import Contribute from "./Page/Contribute";
+//  import Layout from "../src/Layout";
 
 function App() {
   return (
     <div className="App">
       <>
         <Router>
-        <Layout>
+        {/* <Layout> */}
           <Routes>
             {/* web sit section  */}
             <Route path="/" element={<Home />} />
@@ -61,8 +61,7 @@ function App() {
             <Route path="/Congresscommittee" element={<Congresscommittee />} />
             <Route path="/Joinvolunteer" element={<Joinvolunteer />} />
             <Route path="/Petitionform" element={<Petitionform />} />
-            <Route path="/Blogs" element={<Blogs />} />
-            {/* <Route path="/Layout" element={<Layout />} /> */}
+            <Route path="/Contribute" element={<Contribute />} />
 
             {/* admin pages  */}
             <Route
@@ -170,7 +169,8 @@ function App() {
               path="/Login"
               element={(<Login />)}
             />
-          </Routes></Layout>
+          </Routes>
+          {/* </Layout> */}
           {/* <Footer /> */}
         </Router>
       </>

@@ -84,10 +84,10 @@ function Joinvolunteer() {
     return (
         <>
             <Topbar />
-            <div className='Congresscommittee mt-5 mb-5' style={{ fontFamily: 'Roboto, sans-serif' }}>
+            <div className='Congresscommittee mt-5 mb-5' style={{ fontFamily: 'Roboto, sans-serif' }} >
                 <Container>
                     <Form onSubmit={handleSubmit}>
-                        <div className='card p-5' style={{ borderColor: '#203583', color: '#203583', borderRadius: '10px' }}>
+                        <div className='card p-5' style={{ borderColor: '#203583', color: '#203583', borderRadius: '10px',marginTop:'15%' }}>
                             <div className='d-flex justify-content-center mb-3'>
                                 <img src={logo} alt="Logo" style={{ width: '40px' }} />
                             </div>
