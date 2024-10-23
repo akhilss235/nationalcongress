@@ -105,10 +105,12 @@ body {
 }
 
 
-
-
-
-
+/* .VIpgJd-ZVi9od-ORHb-KE6vqe {
+  visibility: hidden !important;
+}
+td.VIpgJd-ZVi9od-ORHb-KE6vqe{
+  visibility: hidden !important;
+} */
 .homepageimg {
   max-height: 800px; /* Adjust height based on viewport */
   width: auto; /* Maintain aspect ratio */
