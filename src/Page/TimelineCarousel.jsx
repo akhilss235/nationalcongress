@@ -34,7 +34,7 @@ const TimelineCarousel = () => {
         dots: true,
         autoplay: false,
         speed: 1100,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 3,
         responsive: [
             {

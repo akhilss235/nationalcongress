@@ -106,10 +106,9 @@ function Gallery() {
   centered
 >
   <Modal.Body className="d-flex justify-content-between align-items-center">
-  <div className="row">
 
 
-    <div className="col-1">
+
       {/* <button
         className="btn btn-secondary"
         aria-label="Previous image"
@@ -117,12 +116,11 @@ function Gallery() {
       >
         Previous
       </button> */}
-<PiLessThanBold          onClick={handlePrev}
-/>
 
 
-    </div>
-<div className="col">
+
+   
+
 <img
       src={images[selectedIndex]}
       alt={`Slide ${selectedIndex + 1} of ${images.length}`}
@@ -130,10 +128,10 @@ function Gallery() {
       loading="lazy"
       style={{ maxHeight: '500px', objectFit: 'contain' }} // Optional for better image fit
     />
-</div>
+
  
 
-    <div className="col-1">
+
       {/* <button
         onClick={handleNext}
         className="btn btn-secondary"
@@ -142,10 +140,9 @@ function Gallery() {
       >
         Next
       </button> */}
-      <FaGreaterThan         onClick={handleNext}
- />
-    </div>
-    </div>
+
+ 
+
   </Modal.Body>
 </Modal>
 

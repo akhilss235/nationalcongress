@@ -109,7 +109,7 @@ const Sidebar = ({ children }) => {
     return (
         <>
             <Hedsection toggle={toggle} isOpen={isOpen} />
-            <div className="section d-flex" style={{ fontFamily: 'Roboto, sans-serif' }}>
+            <div className="section d-flex " style={{ fontFamily: 'Roboto, sans-serif' }}>
                 <div style={{ width: isOpen ? "300px" : "50px" }} className="sidebar">
                     {menuItem.map((item, index) => (
                         <NavLink to={item.path} key={index} className="linkss" activeClassName="active">

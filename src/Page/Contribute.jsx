@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../img/logo.png';
 import { Container } from 'react-bootstrap';
-import qrcode from '../img/qrcode.png';
+import qrcode from '../img/qr.jpg';
 import Petition from "./Petition";
 import Topbar from "../Compontes/Topbar";
 import Footer from "../Compontes/Footer";

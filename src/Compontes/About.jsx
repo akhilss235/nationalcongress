@@ -37,7 +37,7 @@ function About() {
               </span>
             )}
           </p>
-          <div className="d-flex align-items-start justify-content-start mt-5">
+          <div className="d-flex align-items-start justify-content-start mt-5 mb-3">
             <button
               type="button"
               className="btn btn-outline-primary buttones1"

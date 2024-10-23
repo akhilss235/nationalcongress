@@ -4,26 +4,26 @@ import congress1 from "../img/Congress1.png";
 function joinwavedetailes() {
   return (
     <div>
-      <div className="row Background3 mb-5">
-        <div className="col-12 col-md-6 d-flex align-items-center justify-content-center">
+      <div className="row Background3 ">
+        <div className="col-12 col-md-6 d-flex align-items-center justify-content-center " style={{overflowX:'hidden'}}>
           <img
             src={congress1}
             alt="congress1"
             className="congress1 img-fluid d-none d-md-block"
-            style={{ maxHeight: "640px" }}
+            style={{ maxHeight: "640px" ,height:'auto'}}
           />
           <img
             src={clone}
             alt="congress2"
-            className="congress2 img-fluid rounded-circle d-block d-md-none"
-            style={{ maxHeight: "600px" }}
+            className="congress2 rounded-circle d-block d-md-none"
+            style={{ maxHeight: "400px" }}
           />
         </div>
         <div className="col-12 col-md-6  d-flex flex-column align-items-start justify-content-center p-5">
-          <h2 className="text-start boss pt-5 px-3 text-white">
+          <h2 className="text-start pt-5 px-3 text-white">
             <b>Lorem ipsum dolor</b>
           </h2>
-          <h2 className="text-start boss mb-5 px-3  text-white">
+          <h2 className="text-start  mb-5 px-3  text-white">
             <b>consectetur adipiscing</b>
           </h2>
           <p className="text-white px-3 " style={{ width: "80%" }}>

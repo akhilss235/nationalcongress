@@ -38,7 +38,7 @@ function Home() {
             style={{ width: "17rem", height: "0.3rem" }}
           />
         </div>
-        {/* <Latestevents /> */}
+
         <Latestevents />
         <div
           className="d-flex align-items-start justify-content-center "
@@ -58,6 +58,8 @@ function Home() {
 
         <About />
       </Container>
+
+
       <Joinwavadetailes />
       <Container>
         <TimelineCarousel />

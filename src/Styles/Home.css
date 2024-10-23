@@ -25,38 +25,7 @@
     background-position: center;
   }
 
-  .Background3 {
-    background-image: url(../img/bg3.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 40rem;  
-  }
-  
-  @media (max-width: 768px) {
-    .congress2 {
-      width: 90%;
-      max-height: none;
-      height: auto;
-    }
-  }
-  
-  
-@media (max-width: 768px) {
-    .Background3 {
-      height: auto;
-    }
-    .buttones3 {
-      width: 100%;
-      height: auto;
-    }
-    .text-start {
-      text-align: center !important;
-    }
-    .col-12 {
-      padding: 1rem !important;
-    }
-  }
+
 
 
 /* event page  */
@@ -75,4 +44,60 @@
   background-repeat: no-repeat;
   height: 50rem;
   color: white;
+}
+
+
+
+
+
+
+.Background3 {
+  background-image: url(../img/bg3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden !important;
+  height: 40rem;  
+}
+
+@media (max-width: 768px) {
+  .congress2 {
+    width: 90%;
+    max-height: none;
+    height: auto;
+    overflow-x: hidden;
+
+  }
+}
+
+
+@media (max-width: 425px) {
+  .Background3 {
+    height: auto;
+    overflow-x: hidden !important;
+
+  }
+}
+@media (max-width: 768px) {
+  .Background3 {
+    height: auto;
+    overflow-x: hidden;
+
+  }
+  .buttones3 {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+
+  }
+  .text-start {
+    text-align: center !important;
+    overflow-x: hidden;
+
+  }
+  .col-12 {
+    padding: 1rem !important;
+    overflow-x: hidden;
+
+  }
 }
