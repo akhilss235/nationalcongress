@@ -188,3 +188,9 @@ body {
     padding-top: 50px !important; /* Fixed padding syntax */
   }
 }
+@media (max-width: 323px) {
+  .Background {
+    margin-bottom: 60% !important; /* Consider adjusting this for layout */
+  }
+
+}

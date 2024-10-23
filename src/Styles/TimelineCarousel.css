@@ -38,11 +38,14 @@ color: rgb(172, 178, 178);
     right: 10px;
     display: flex;
     align-items: center;
+    z-index: -1000px !important;
 }
 
 .robot-image {
     width: 50px;
     height: auto; /* Maintain aspect ratio */
+    z-index: -1000px !important;
+
 }
 
 .hover-text {
