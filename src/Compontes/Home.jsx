@@ -21,7 +21,7 @@ function Home() {
   return (
     <div className="home" style={{ fontFamily: "Roboto, sans-serif" }}>
       <Topbar />
-      <Petition />
+      {/* <Petition /> */}
      <Homesection />
       <Container>
         <div

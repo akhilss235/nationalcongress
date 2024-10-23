@@ -16,9 +16,7 @@ import AdminEvents from "./adminsection/AdminEvents";
 import Eventssection from "../src/adminnavbar/Eventssection";
 import Achievementssection from "../src/adminnavbar/Achievementssection";
 import Adminachievements from "./adminsection/Adminachievements";
-
 import Login from "./adminsection/Login";
-
 import Adminnews from "./adminsection/Adminnews";
 import AdminGallery from "./adminsection/AdminGallery";
 import AdminPetitions from "./adminsection/AdminPetitions";
@@ -41,7 +39,9 @@ import Galleryvideo from "../src/adminpage/Galleryvideo";
 import Petitionview from "../src/adminpage/Petitionview";
 import Volunteerview from "../src/adminpage/Volunteerview";
 import Contribute from "./Page/Contribute";
+
 //  import Layout from "../src/Layout";
+import Petition from "./Compontes/Petition";
 
 function App() {
   return (
@@ -62,7 +62,9 @@ function App() {
             <Route path="/Joinvolunteer" element={<Joinvolunteer />} />
             <Route path="/Petitionform" element={<Petitionform />} />
             <Route path="/Contribute" element={<Contribute />} />
+            <Route path="/Petition" element={<Petition />} />
 
+            
             {/* admin pages  */}
             <Route
               path="/Header"

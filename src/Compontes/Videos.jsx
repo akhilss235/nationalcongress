@@ -9,7 +9,7 @@ function Videos() {
   return (
     <>
       <Topbar />
-      <Petition />
+      {/* <Petition /> */}
 
 
       <div className='mt-5' style={{ fontFamily: 'Roboto, sans-serif' }}>

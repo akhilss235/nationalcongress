@@ -10,7 +10,7 @@ function Events() {
   return (
     <div style={{ fontFamily: "Roboto, sans-serif" }}>
       <Topbar />
-      <Petition />
+      {/* <Petition /> */}
       <Eventsection />
       <Container>
         <Latestevents />

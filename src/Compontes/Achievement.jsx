@@ -11,7 +11,7 @@ function Achievement() {
   return (
     <div style={{ fontFamily: "Roboto, sans-serif" }}>
       <Topbar />
-      <Petition />
+      {/* <Petition /> */}
       <Achievementsection />
 
       <Container>

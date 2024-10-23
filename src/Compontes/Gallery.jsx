@@ -49,7 +49,7 @@ function Gallery() {
   return (
     <>
       <Topbar />
-      <Petition />
+      {/* <Petition /> */}
       <div
         className="mt-5 mb-5"
         style={{ fontFamily: "Roboto, sans-serif", marginTop: "5%" }}

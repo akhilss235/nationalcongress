@@ -15,7 +15,7 @@ function News() {
   return (
     <div style={{ fontFamily: 'Roboto, sans-serif' }}>
         <Topbar />
-        <Petition />
+        {/* <Petition /> */}
       <div className="row  d-flex flex-column align-items-center justify-content-center">
         <div className="text-center" style={{ marginTop: '10%', color: '#203583' }}>
           <h2><b>News</b></h2>
