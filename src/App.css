@@ -182,7 +182,7 @@ body {
     overflow-x: hidden !important; /* Prevent horizontal overflow */
   }
   .Background {
-    margin-bottom: 100% !important; /* Consider adjusting this for layout */
+    margin-bottom: 40% !important; /* Consider adjusting this for layout */
   }
   .homepageimg { /* Corrected class name */
     padding-top: 50px !important; /* Fixed padding syntax */
